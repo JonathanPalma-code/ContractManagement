@@ -1,4 +1,4 @@
-# ContractManagement
+# Contract Management
 
 A company wants to automate the processing of its contracts. The processing of a contract consists on generating the installments to be paid for that contract, based on the desired number of months.
 The company uses an online payment service to pay the installments. Online payment services typically charge a monthly interest, as well as a fee for payment. For the time being, the service hired by the company is Paypal, which applies a simple fee of 1% per loan, plus a fee of 2%.
