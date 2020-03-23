@@ -1,0 +1,11 @@
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.exe
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.deps.json
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.runtimeconfig.json
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.runtimeconfig.dev.json
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.dll
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\bin\Debug\netcoreapp3.1\ContractManagement.pdb
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\obj\Debug\netcoreapp3.1\ContractManagement.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\obj\Debug\netcoreapp3.1\ContractManagement.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\obj\Debug\netcoreapp3.1\ContractManagement.AssemblyInfo.cs
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\obj\Debug\netcoreapp3.1\ContractManagement.dll
+C:\Users\jonat\Documents\C#\Projects\ContractManagement\ContractManagement\obj\Debug\netcoreapp3.1\ContractManagement.pdb
