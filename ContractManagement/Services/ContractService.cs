@@ -14,12 +14,15 @@ namespace ContractManagement.Services
 
         public void ContractProcess(Contract contract, int months)
         {
-            double payment = _onlinePaymentService.InterestFee(contract.ContractValue, months);
-            payment = _onlinePaymentService.PaymentFee(payment);
+            double payment = contract.ContractValue / months;
 
-            DateTime dueDate = contract.Date.AddMonths(months);
-
-            contract.Installments = new Installment(dueDate, payment);
+            for (int nMonths = 1; nMonths <= months; nMonths++)
+            {
+                DateTime dueDate = contract.Date.AddMonths(nMonths);
+                double totalToPay = payment + _onlinePaymentService.InterestFee(payment, nMonths);
+                totalToPay += _onlinePaymentService.PaymentFee(totalToPay);
+                contract.AddInstallments(new Installment(dueDate, totalToPay));
+            }
         }
     }
 }

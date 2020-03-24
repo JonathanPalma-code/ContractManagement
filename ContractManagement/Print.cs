@@ -18,17 +18,16 @@ namespace ContractManagement
 
             Console.Write("Enter the number of installments: ");
             int installmentsQty = int.Parse(Console.ReadLine());
-            value /= installmentsQty;
 
             Contract contract = new Contract(id, date, value);
 
-            Console.WriteLine("Installments:");
-            for (int i = 1; i <= installmentsQty; i++)
-            {
-                ContractService contractService = new ContractService(new PaypalService());
-                contractService.ContractProcess(contract, i);
+            ContractService contractService = new ContractService(new PaypalService());
+            contractService.ContractProcess(contract, installmentsQty);
 
-                Console.WriteLine(contract.Installments);
+            Console.WriteLine("Installments:");
+            foreach (Installment installment in contract.Installments)
+            {
+                Console.WriteLine(installment);
             }
         }
     }
