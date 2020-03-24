@@ -29,3 +29,8 @@ Calculations(1% monthly simple interest + 2% payment fee):
 * Quota #3: 
   * 200 + 1% * 3 = 206 
   * 206 + 2% = 210.12
+
+## Approach
+### UML Diagram 
+
+![ContractManagement](https://user-images.githubusercontent.com/55409351/77452434-d8c9c500-6ded-11ea-9366-62f248ac06c4.png)
