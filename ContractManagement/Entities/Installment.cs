@@ -12,5 +12,10 @@ namespace ContractManagement.Entities
             DueDate = dueDate;
             Amount = amount;
         }
+
+        public override string ToString()
+        {
+            return DueDate.ToString("dd/MM/yyyy") + " - " + Amount;
+        }
     }
 }

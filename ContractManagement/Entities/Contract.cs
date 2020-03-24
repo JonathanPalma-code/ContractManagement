@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ContractManagement.Entities
 {
@@ -9,6 +7,7 @@ namespace ContractManagement.Entities
         public int Number { get; set; }
         public DateTime Date { get; set; }
         public double ContractValue { get; set; }
+        public Installment Installments { get; set; }
 
         public Contract(int number, DateTime date, double contractValue)
         {
